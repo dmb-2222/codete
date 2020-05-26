@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b92764f02c37d95d6a21239ec6b60d9",
+    "revision": "9a900587f41bc8596f25df73823ea001",
     "url": "/codete/index.html"
   },
   {
-    "revision": "1b08630f64429d5dd8fc",
+    "revision": "7fbea018d70a24035219",
     "url": "/codete/static/css/main.7ed0e446.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codete/static/js/2.caba32ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b08630f64429d5dd8fc",
-    "url": "/codete/static/js/main.f4a7276e.chunk.js"
+    "revision": "7fbea018d70a24035219",
+    "url": "/codete/static/js/main.cc4fa83e.chunk.js"
   },
   {
     "revision": "5631dfc1d01fbaf318d8",
