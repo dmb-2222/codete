@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './SearchForm.module.css'
 
-
 const SearchForm = ({ handleInput, handeleSubmit, value }) => {
   return (
     <form className={styles.searchForm} onSubmit={handeleSubmit}>

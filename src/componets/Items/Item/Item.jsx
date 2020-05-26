@@ -18,10 +18,11 @@ const Item = ({
   isParagraph = false,
 }) => {
   return (
-    <article>
+    <>
       <p>{title}</p>
       <Text isParagraph={!isParagraph}>{text}</Text>
       {!isParagraph && (
+        
         <Link
           to={`paragraph${id}`}
           onClick={() => toChoiceParagraph(id, publications)}
@@ -29,7 +30,7 @@ const Item = ({
           More
         </Link>
       )}
-    </article>
+    </>
   );
 };
 

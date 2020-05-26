@@ -7,8 +7,11 @@ const Sections = ({ toChoiceCategory, publications }) => {
   const history = useHistory();
   const onClickLink = (e) => {
     const { name } = e.currentTarget;
-    history.push(name);
     toChoiceCategory(name.slice(1), publications);
+    if(name!==history.location.pathname){
+      history.push(name);
+    } 
+    
   };
   return (
     <div className={styles.container}>

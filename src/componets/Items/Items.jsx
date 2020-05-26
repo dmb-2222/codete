@@ -10,10 +10,14 @@ const Items = ({ paragraphs, isParagraph }) => {
       marginTop: 20,
       marginBottom: 20,
       padding: 15,
+      justifyContent: "space-between",
+      display: "flex",
+      flexDirection: "column",
     },
     list: {
       maxWidth: isParagraph ? 800 : 180,
       marginLeft: 20,
+      display: "flex",
     },
   });
   const classes = useStyles();

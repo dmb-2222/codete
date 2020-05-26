@@ -4,19 +4,15 @@ import Items from "../../componets/Items";
 import PaginationComponent from "../../componets/Pagination";
 
 const ParagraphPage = ({ paragraphs, searchParagraph }) => {
+  
   const [serchInput, setSerchInput] = useState("");
-  const [handleSubmite, setHandleSubmite] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
-  const [postPerPage, setPostPerge] = useState(4);
+  // const [handleSubmiteText, setHandleSubmite] = useState("");
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const postPerPage = 4;
   const indexOfLastPost = currentPage * postPerPage;
   const indexOfFirstPost = indexOfLastPost - postPerPage;
   const curentPosts = paragraphs.slice(indexOfFirstPost, indexOfLastPost);
-
-  const handleChange = (e, value) => {
-    e.preventDefault();
-    setCurrentPage(value);
-  };
 
   const handleInput = (e) => {
     const { value } = e.target;
@@ -24,11 +20,15 @@ const ParagraphPage = ({ paragraphs, searchParagraph }) => {
   };
   const handeleSubmit = (e) => {
     e.preventDefault();
-    setHandleSubmite(serchInput);
-    searchParagraph(paragraphs, handleSubmite);
+    searchParagraph(paragraphs, serchInput);
     setSerchInput("");
   };
 
+  const handleChange = (e, value) => {
+    e.preventDefault();
+    
+    setCurrentPage(value);
+  };
   return (
     <>
       <Search
