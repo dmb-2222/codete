@@ -9,7 +9,7 @@ const ParagraphPage = ({ paragraphs, searchParagraph }) => {
   // const [handleSubmiteText, setHandleSubmite] = useState("");
 
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerPage = 4;
+  const postPerPage = 5;
   const indexOfLastPost = currentPage * postPerPage;
   const indexOfFirstPost = indexOfLastPost - postPerPage;
   const curentPosts = paragraphs.slice(indexOfFirstPost, indexOfLastPost);
