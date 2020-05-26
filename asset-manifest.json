@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/codete/static/css/main.c6e40cc1.chunk.css",
-    "main.js": "/codete/static/js/main.8a12b8b2.chunk.js",
-    "main.js.map": "/codete/static/js/main.8a12b8b2.chunk.js.map",
+    "main.js": "/codete/static/js/main.d29a595c.chunk.js",
+    "main.js.map": "/codete/static/js/main.d29a595c.chunk.js.map",
     "runtime-main.js": "/codete/static/js/runtime-main.d903d46e.js",
     "runtime-main.js.map": "/codete/static/js/runtime-main.d903d46e.js.map",
     "static/js/2.22444ee1.chunk.js": "/codete/static/js/2.22444ee1.chunk.js",
     "static/js/2.22444ee1.chunk.js.map": "/codete/static/js/2.22444ee1.chunk.js.map",
     "index.html": "/codete/index.html",
-    "precache-manifest.6019f5fb7fc4b8d796d771961aa8b980.js": "/codete/precache-manifest.6019f5fb7fc4b8d796d771961aa8b980.js",
+    "precache-manifest.be55d1ce0db5cf1373835dbbfa77009d.js": "/codete/precache-manifest.be55d1ce0db5cf1373835dbbfa77009d.js",
     "service-worker.js": "/codete/service-worker.js",
     "static/css/main.c6e40cc1.chunk.css.map": "/codete/static/css/main.c6e40cc1.chunk.css.map",
     "static/js/2.22444ee1.chunk.js.LICENSE.txt": "/codete/static/js/2.22444ee1.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d903d46e.js",
     "static/js/2.22444ee1.chunk.js",
     "static/css/main.c6e40cc1.chunk.css",
-    "static/js/main.8a12b8b2.chunk.js"
+    "static/js/main.d29a595c.chunk.js"
   ]
 }
