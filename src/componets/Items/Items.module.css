@@ -1,0 +1,11 @@
+.items {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.itemsList{
+    width: 180px;
+    margin-left: 20px;
+}
